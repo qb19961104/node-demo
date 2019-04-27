@@ -7,7 +7,7 @@ http.createServer(function(req,res){
         var result=url.parse(req.url,true)
         var username=result.query.username
         var age=result.query.age
-        console.log(username,age)
+        console.log(username,age);
     }
     res.write('你好,node.js')
     res.end()
