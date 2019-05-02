@@ -1,0 +1,6 @@
+username=%E5%BC%A0%E4%B8%89&password=zhangdan
+username=%E5%BC%A0%E4%B8%89&password=sdf
+username=%E5%BC%A0%E4%B8%89&password=sd
+username=123&password=456
+username=123&password=456
+username=qb20150806%40163.com&password=123456789
