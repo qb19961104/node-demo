@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>ejs循环数据</h1>
+    <ul>
+        <%for(var i=0;i<msg.length;i++){%>
+            <li><%=msg[i]%></li>
+        <%}%>
+        
+    </ul>
+    <br>
+    <h2>后台返回标签</h2>
+    <%-content%>
+    <br>
+    <h2>条件判断</h2>
+    <% if(num>24){%>
+        大于24
+    <%}else{%>
+        小于24
+    <%}%>
+    <br>    
+    <h2>公共信息</h2>
+    <%=username%>
+</body>
+</html>
